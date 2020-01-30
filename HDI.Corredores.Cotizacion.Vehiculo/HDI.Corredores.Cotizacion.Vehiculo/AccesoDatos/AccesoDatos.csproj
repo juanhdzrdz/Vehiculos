@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.ServicioVehiculo.AccesoDatos</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.ServicioVehiculo.AccesoDatos</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NuGet.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="NuGet.config">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Archivos\Archivos.csproj" />
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj" />
+    <ProjectReference Include="..\Configuracion\Configuracion.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\EventosIntegracion\EventosIntegracion.csproj" />
+  </ItemGroup>
+
+</Project>

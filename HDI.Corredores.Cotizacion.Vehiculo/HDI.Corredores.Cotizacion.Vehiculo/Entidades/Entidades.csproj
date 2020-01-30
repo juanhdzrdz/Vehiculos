@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>

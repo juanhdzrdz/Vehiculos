@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HDI.Framework.Integration.EventBus" Version="1.0.0-rc" />
+    <PackageReference Include="HDI.Framework.Logging" Version="1.0.0-rc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseDatos\BaseDatos.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

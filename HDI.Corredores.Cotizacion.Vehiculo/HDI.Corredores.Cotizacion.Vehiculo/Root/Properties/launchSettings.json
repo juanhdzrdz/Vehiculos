@@ -1,0 +1,68 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12837",
+      "sslPort": 0
+	  //"sslPort": 44313
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SybaseConnectionString": "kk/TWx5r7Eg0MtvLXP4r7iYl0nVnUQrxgh4jNdzLbE5En/fHvCd69JP2apvNX9wwWIvoA5YWB8zIWPqGCkcAv2C6K8LFwBSx8WA0AK2zUWezel5IlfQU3krmzLBnFbT9rYQn8aKPEdmDBcFRodIa4IEmksNN9c+vtk8rddkzRfM=",
+        "LogConnectionStringSQL": "y8NFBI9+Gs2lsZfnKifY76vDbofJ63i8XdwXCrt3xPDXCw0HJX/H8DRX13vcUfprubxNw+UF0JnYS7dqgn+9CKe5kRtr6m/bZM23+vBWuys=",
+        "RabbitHostName": "rbmqdigital.ts01.hdi.net",
+        "RabbitUserName": "dev_user",
+        "RabbitPassword": "dev_user",
+        "RabbitVirtualHost": "/DesarrolloTS",
+        "RabbitPort": "5672",
+        "RabbitExchangeName": "HDI.Utility.Logging",
+        "RabbitExchangeType": "0",
+        "RabbitExchangeIsDurable": "false",
+        "RabbitExchangeIsAutoDelete": "false",
+        "RabbitQueueName": "HDI.Utility.Logging.Consumer",
+        "RabbitQueueIsDurable": "false",
+        "RabbitQueueIsExclusive": "false",
+        "RabbitQueueIsAutoDelete": "false",
+        "RutaServicioConfiguracion": "http://localhost:12839/api/Configuracion/"
+      }
+    },
+    "Root": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SybaseConnectionString": "kk/TWx5r7Eg0MtvLXP4r7iYl0nVnUQrxgh4jNdzLbE5En/fHvCd69JP2apvNX9wwWIvoA5YWB8zIWPqGCkcAv2C6K8LFwBSx8WA0AK2zUWezel5IlfQU3krmzLBnFbT9rYQn8aKPEdmDBcFRodIa4IEmksNN9c+vtk8rddkzRfM=",
+        "LogConnectionStringSQL": "Server=.\\SQLEXPRESS;Database=LogDb;Trusted_Connection=True;MultipleActiveResultSets=true",
+        "RabbitHostName": "localhost",
+        "RabbitUserName": "guest",
+        "RabbitPassword": "guest",
+        "RabbitVirtualHost": "/",
+        "RabbitPort": "5672",
+        "RabbitExchangeName": "HDI.Utility.Logging",
+        "RabbitExchangeType": "0",
+        "RabbitExchangeIsDurable": "false",
+        "RabbitExchangeIsAutoDelete": "false",
+        "RabbitQueueName": "HDI.Utility.Logging.Consumer",
+        "RabbitQueueIsDurable": "false",
+        "RabbitQueueIsExclusive": "false",
+        "RabbitQueueIsAutoDelete": "false",
+        "RutaServicioConfiguracion": "http://localhost:12839/api/Configuracion/"
+      },
+      "applicationUrl": "http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/index.html"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion</AssemblyName>
+  </PropertyGroup>
+
+</Project>

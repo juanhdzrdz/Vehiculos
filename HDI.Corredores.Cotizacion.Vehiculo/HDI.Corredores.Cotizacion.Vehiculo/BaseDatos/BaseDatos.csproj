@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="EXT.AdoNetCore.AseClient" Version="1.0.0" />
+    <PackageReference Include="Hdi.Arquitectura.LibreriaEmpresarial" Version="1.0.5" />
+    <PackageReference Include="HDI.Enterprise.Data.AccessCore.Sybase" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Configuracion\Configuracion.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>HDI.Corredores.Cotizacion.Vehiculo.Negocio</RootNamespace>
+    <AssemblyName>HDI.Corredores.Cotizacion.Vehiculo.Negocio</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatos\AccesoDatos.csproj" />
+    <ProjectReference Include="..\Configuracion\Configuracion.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\EventosIntegracion\EventosIntegracion.csproj" />
+  </ItemGroup>
+
+</Project>

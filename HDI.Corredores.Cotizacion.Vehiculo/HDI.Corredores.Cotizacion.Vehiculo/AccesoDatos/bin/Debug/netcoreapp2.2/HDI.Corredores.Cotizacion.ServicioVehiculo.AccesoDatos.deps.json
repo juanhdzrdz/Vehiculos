@@ -1,0 +1,378 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "0a0fdea3dde99d394089aa1693f26aa039a190a7"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.AccesoDatos/1.0.0": {
+        "dependencies": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Archivos": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion": "1.0.0"
+        },
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.AccesoDatos.dll": {}
+        }
+      },
+      "Autofac/4.9.4": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
+          }
+        }
+      },
+      "EXT.AdoNetCore.AseClient/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/AdoNetCore.AseClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Hdi.Arquitectura.LibreriaEmpresarial/1.0.5": {
+        "runtime": {
+          "lib/netcoreapp2.2/Hdi.Arquitectura.LibreriaEmpresarial.NetCore.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "HDI.Enterprise.Data.AccessCore.Sybase/1.0.0": {
+        "dependencies": {
+          "EXT.AdoNetCore.AseClient": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Data.Common": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Enterprise.Data.AccessCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HDI.Framework.Integration.EventBus/1.0.0-rc": {
+        "dependencies": {
+          "Autofac": "4.9.4",
+          "Newtonsoft.Json": "12.0.2",
+          "RabbitMQ.Client": "5.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/HDI.Framework.Integration.EventBus.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "HDI.Framework.Logging/1.0.0-rc": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/HDI.Framework.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/2.2.6": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.6",
+          "Remotion.Linq": "2.2.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.19169"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.19169"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "RabbitMQ.Client/5.1.0": {
+        "runtime": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Remotion.Linq/2.2.0": {
+        "dependencies": {
+          "System.Linq.Queryable": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Remotion.Linq.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.30000"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Data.Common/4.3.0": {},
+      "System.Interactive.Async/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.702"
+          }
+        }
+      },
+      "System.Linq.Queryable/4.0.1": {},
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.Archivos/1.0.0": {
+        "dependencies": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion": "1.0.0"
+        },
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Archivos.dll": {}
+        }
+      },
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos/1.0.0": {
+        "dependencies": {
+          "EXT.AdoNetCore.AseClient": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades": "1.0.0",
+          "HDI.Enterprise.Data.AccessCore.Sybase": "1.0.0",
+          "Hdi.Arquitectura.LibreriaEmpresarial": "1.0.5",
+          "Microsoft.EntityFrameworkCore": "2.2.6"
+        },
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos.dll": {}
+        }
+      },
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion/1.0.0": {
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion.dll": {}
+        }
+      },
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades.dll": {}
+        }
+      },
+      "HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion/1.0.0": {
+        "dependencies": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos": "1.0.0",
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades": "1.0.0",
+          "HDI.Framework.Integration.EventBus": "1.0.0-rc",
+          "HDI.Framework.Logging": "1.0.0-rc"
+        },
+        "runtime": {
+          "HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.AccesoDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/4.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "path": "autofac/4.9.4",
+      "hashPath": "autofac.4.9.4.nupkg.sha512"
+    },
+    "EXT.AdoNetCore.AseClient/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RFfD26/TWdzLDFFvM2jmILio3VLL2foWQQYKV33uC4hiWKffqpVE0Z6WdPtiyFhw9gHB5cZZTqiHNvLpme4FdA==",
+      "path": "ext.adonetcore.aseclient/1.0.0",
+      "hashPath": "ext.adonetcore.aseclient.1.0.0.nupkg.sha512"
+    },
+    "Hdi.Arquitectura.LibreriaEmpresarial/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vR+2fLXBYTLDujVtgG8XxRTOgK9CGnolhMEvOxFbgyTKcU9aydy5EPQN8PFzgyKugF+gtekzt2XzgBtPjq+hGg==",
+      "path": "hdi.arquitectura.libreriaempresarial/1.0.5",
+      "hashPath": "hdi.arquitectura.libreriaempresarial.1.0.5.nupkg.sha512"
+    },
+    "HDI.Enterprise.Data.AccessCore.Sybase/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvO9bp0aIs0XJIAEMtEauauvRxb0uDOmQX1/Rw2jRn4kjW6PC7isHmAQ96G24YRQYCfLeTarNihyYTTUqfemig==",
+      "path": "hdi.enterprise.data.accesscore.sybase/1.0.0",
+      "hashPath": "hdi.enterprise.data.accesscore.sybase.1.0.0.nupkg.sha512"
+    },
+    "HDI.Framework.Integration.EventBus/1.0.0-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XoozFTX9Ys2asCkW3ha1jphH6H6AaMwJu4FqI7I12orOdVDQQ5c4WeV5vkoAvY0nIQYnw7D2pnL8dlHhfcKIuQ==",
+      "path": "hdi.framework.integration.eventbus/1.0.0-rc",
+      "hashPath": "hdi.framework.integration.eventbus.1.0.0-rc.nupkg.sha512"
+    },
+    "HDI.Framework.Logging/1.0.0-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NNCUOFfdfJST6QF11KoZDEFNx1fz6zMyRhPvG55z93mrjHqwuOCMlZKWWPplhhtH6P79qPcBU6qgwUnPwKPp0g==",
+      "path": "hdi.framework.logging/1.0.0-rc",
+      "hashPath": "hdi.framework.logging.1.0.0-rc.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vmrMrjiCO7FkuFJwt/MHl6pk6cSXPtB1miPMtn0KTO7WqwaQ2WQ4gWpC/m753PzVriH2X2kIadWrd9SJb7KVww==",
+      "path": "microsoft.entityframeworkcore/2.2.6",
+      "hashPath": "microsoft.entityframeworkcore.2.2.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4CrelpMMLszWqi0gFEYPhbsinXCQ2Vw6rA190IIwKY7THge/ckOwj6QIQKOu3Lmxj4khpzs+b6QADbpRRnOIaQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.6",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BpNllkfZABCvMAaIL/pSLxTYYZQqiVesSG6xQpvelrlEfC0s9PS217Sq5Apn/zYW8ALtGoVEY12TblHrZ4SRRA==",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.6",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "RabbitMQ.Client/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oMXzDw2NLDHYlAYVJs5AHZDGkTsuzmaAPNfHjgkPqq3VfnxAXgsJ643ts6xsdXJftpwPbDAwN5YP65lHm+MiNg==",
+      "path": "rabbitmq.client/5.1.0",
+      "hashPath": "rabbitmq.client.5.1.0.nupkg.sha512"
+    },
+    "Remotion.Linq/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
+      "path": "remotion.linq/2.2.0",
+      "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Data.Common/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lm6E3T5u7BOuEH0u18JpbJHxBfOJPuCyl4Kg1RH10ktYLp5uEEE1xKrHW56/We4SnZpGAuCc9N0MJpSDhTHZGQ==",
+      "path": "system.data.common/4.3.0",
+      "hashPath": "system.data.common.4.3.0.nupkg.sha512"
+    },
+    "System.Interactive.Async/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C07p0dAA5lGqYUPiPCK3paR709gqS4aMDDsje0v0pvffwzLaxmsn5YQTfZbyNG5qrudPx+BCxTqISnncQ3wIoQ==",
+      "path": "system.interactive.async/3.2.0",
+      "hashPath": "system.interactive.async.3.2.0.nupkg.sha512"
+    },
+    "System.Linq.Queryable/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "path": "system.linq.queryable/4.0.1",
+      "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.Archivos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.BaseDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.Configuracion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HDI.Corredores.Cotizacion.ServicioVehiculo.EventosIntegracion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
